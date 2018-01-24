@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * High Price Products widget module
+ * @category    Gmc
+ * @package     Gmc_TopExpensiveProducts
+ * @copyright   Copyright (c) 2018 Marius Grad
+ */
+-->
+<config>
+    <modules>
+        <Gmc_TopExpensiveProducts>
+            <version>1.0.0</version>
+        </Gmc_TopExpensiveProducts>
+    </modules>
+    <global>
+        <helpers>
+            <Gmc_TopExpensiveProducts>
+                <class>Gmc_TopExpensiveProducts_Helper</class>
+            </Gmc_TopExpensiveProducts>
+        </helpers>
+        <models>
+            <Gmc_TopExpensiveProducts>
+                <class>Gmc_TopExpensiveProducts_Model</class>
+            </Gmc_TopExpensiveProducts>
+        </models>
+        <blocks>
+            <Gmc_TopExpensiveProducts>
+                <class>Gmc_TopExpensiveProducts_Block</class>
+            </Gmc_TopExpensiveProducts>
+        </blocks>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Gmc_TopExpensiveProducts>
+                    <files>
+                        <default>Gmc_TopExpensiveProducts.csv</default>
+                    </files>
+                </Gmc_TopExpensiveProducts>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * High Price Products widget module
+ *
+ * Widget configuration
+ *
+ * @category    Gmc
+ * @package     Gmc_TopExpensiveProducts
+ * @copyright   Copyright (c) 2018 Marius Grad
+ */
+-->
+<widgets>
+    <high_price_products type="Gmc_TopExpensiveProducts/widget_product_topHighPrice " 
+                       translate="name description" 
+                       module="Gmc_TopExpensiveProducts">
+        <name>Top Most Expensive Products</name>
+        <description>Display a list of top most expensive products</description>
+        <is_email_compatible>1</is_email_compatible>
+        <parameters>
+            <products_count translate="label">
+                <required>1</required>
+                <visible>1</visible>
+                <value>3</value>
+                <label>Number of Products to Display</label>
+                <type>text</type>
+            </products_count>
+            <category_id translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <label>Category</label>
+                <type>select</type>
+                <source_model>Gmc_TopExpensiveProducts/system_config_source_category</source_model>
+            </category_id>
+            <template>
+                <required>1</required>
+                <visible>1</visible>
+                <label>Template</label>
+                <type>select</type>
+                <value>Gmc_TopExpensiveProducts/widget/expensive_products_grid.phtml</value>
+                <values>
+                    <default translate="label">
+                        <value>gmc_topexpensiveproducts/widget/expensive_products_grid.phtml</value>
+                        <label>Product List Grid Template</label>
+                    </default>
+                </values>
+            </template>
+            <cache_lifetime translate="label description">
+                <label>Cache Lifetime (Seconds)</label>
+                <description>86400 by default, if not set. To refresh instantly, Clear the Blocks HTML Output Cache.</description>
+                <visible>1</visible>
+                <type>text</type>
+            </cache_lifetime>
+        </parameters>
+    </high_price_products>
+</widgets>
