@@ -1,9 +1,0 @@
-{
-    "name":"gmc/top-expensive-products",
-    "type":"magento-module",
-    "license":"BSD-3-Clause",
-    "description":"Top Expensive Magento 1 Modulw",
-    "require":{
-        "magento-hackathon/magento-composer-installer": "*"
-    }
-}
