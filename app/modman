@@ -1,4 +1,0 @@
-app/code/community/Gmc/TopExpensiveProducts/*                 			app/code/community/Gmc/TopExpensiveProducts/
-app/design/frontend/base/default/template/gmc_topexpensiveproducts*		app/design/frontend/base/default/template/gmc_topexpensiveproducts
-app/etc/modules/Gmc_TopExpensiveProducts.xml							app/etc/modules/Gmc_TopExpensiveProducts.xml
-app/local/en_US/Gmc_TopExpensiveProducts.csv							app/local/en_US/Gmc_TopExpensiveProducts.csv
