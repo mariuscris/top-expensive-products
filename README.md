@@ -1,2 +1,1 @@
-# top-expensive-products
-Demo Magento 1 Module
+# Top Expensive Products (Widget) Magento 1 Module
